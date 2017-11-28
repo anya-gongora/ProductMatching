@@ -1,0 +1,6 @@
+project/project/
+project/target/streams/compile/compileIncSetup/
+.idea
+build.sbt
+project/
+target/
