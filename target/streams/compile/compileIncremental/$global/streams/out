@@ -1,0 +1,27 @@
+[debug] 
+[debug] Initial source changes: 
+[debug] 	removed:Set(C:\Users\Anya\Documents\ProductMatching\src\main\scala\Product.scala)
+[debug] 	added: Set(C:\Users\Anya\Documents\ProductMatching\src\main\scala\models\Product.scala)
+[debug] 	modified: Set()
+[debug] Invalidated products: Set(C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes\Matching$.class, C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes\Matching$delayedInit$body.class, C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes\Matching.class, C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes\Product.class)
+[debug] External API changes: API Changes: Set()
+[debug] Modified binary dependencies: Set()
+[debug] Initial directly invalidated classes: Set(Product)
+[debug] 
+[debug] Sources indirectly invalidated by:
+[debug] 	product: Set(C:\Users\Anya\Documents\ProductMatching\src\main\scala\Matching.scala, C:\Users\Anya\Documents\ProductMatching\src\main\scala\Product.scala)
+[debug] 	binary dep: Set()
+[debug] 	external source: Set()
+[debug] All initially invalidated classes: Set(Product)
+[debug] All initially invalidated sources:Set(C:\Users\Anya\Documents\ProductMatching\src\main\scala\models\Product.scala, C:\Users\Anya\Documents\ProductMatching\src\main\scala\Matching.scala, C:\Users\Anya\Documents\ProductMatching\src\main\scala\Product.scala)
+[debug] Recompiling all 2 sources: invalidated sources (3) exceeded 50.0% of all sources
+[info] Compiling 2 Scala sources to C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes ...
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4
+[debug] Getting org.scala-sbt:compiler-bridge_2.12:1.0.5:compile for Scala 2.12.4
+[debug] [zinc] Running cached compiler 125d588 for Scala compiler version 2.12.4
+[debug] [zinc] The Scala compiler is invoked with:
+[debug] 	-bootclasspath
+[debug] 	C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_51\jre\classes;C:\Users\Anya\.sbt\boot\scala-2.12.4\lib\scala-library.jar
+[debug] 	-classpath
+[debug] 	C:\Users\Anya\Documents\ProductMatching\target\scala-2.12\classes[debug] Compilation failed (CompilerInterface)
+[error] (compile:compileIncremental) Compilation failed
