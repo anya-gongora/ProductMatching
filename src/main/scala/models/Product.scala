@@ -4,9 +4,9 @@ import org.joda.time.DateTime
 import org.joda.time.format.DateTimeFormat
 import play.api.libs.functional.syntax._
 import play.api.libs.json.Reads._
-import play.api.libs.json._ // Combinator syntax
+import play.api.libs.json._
 
-case class Product(productName: String, manufacturer: String, model: String, family: String, announcedDate: DateTime)
+case class Product(productName: String, manufacturer: String, model: String, family: Option[String], announcedDate: DateTime)
 
 object Product {
   val dateFormat = "yyyy-MM-dd'T'HH:mm:ss.SSSZZ"
@@ -17,16 +17,15 @@ object Product {
     )
   )
 
- implicit val jodaDateWrites: Writes[DateTime] = new Writes[DateTime] {
+  implicit val jodaDateWrites: Writes[DateTime] = new Writes[DateTime] {
     def writes(d: DateTime): JsValue = JsString(d.toString())
   }
-
 
   implicit val productReads: Reads[Product] = (
     (JsPath \ "product_name").read[String] and
     (JsPath \ "manufacturer").read[String] and
     (JsPath \ "model").read[String] and
-    (JsPath \ "family").read[String] and
+    (JsPath \ "family").readNullable[String] and
     (JsPath \ "announced-date").read[DateTime]
   )(Product.apply _)
 
@@ -34,7 +33,7 @@ object Product {
     (JsPath \ "product_name").write[String] and
       (JsPath \ "manufacturer").write[String] and
       (JsPath \ "model").write[String] and
-      (JsPath \ "family").write[String] and
+      (JsPath \ "family").writeNullable[String] and
       (JsPath \ "announced-date").write[DateTime]
   )(unlift(Product.unapply))
 
