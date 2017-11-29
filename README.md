@@ -1,5 +1,15 @@
 ## Product Matching
 
-This project match product listings against a set of known products.
+This project matches product listings against a set of known products.
 
-The results can be found in `src/main/results.txt`.
+## Prerequisites
+
+A `.jar` has been created for this project, so Java should be installed
+
+### Command to Run Code
+
+`sh match.sh`
+
+### Results
+
+The results can be found in `results.txt`.
