@@ -3991,6 +3991,7 @@
 {"title":"Sony Cyber-shot DSC-TX1/H 10MP \"Exmor R\" CMOS Digital Camera with 3-inch Touch-Screen LCD (Grey)","manufacturer":"Sony","currency":"USD","price":"224.40"}
 {"title":"Pentax Optio S12 12MP Digital Camera with 3x Optical Zoom (Silver)","manufacturer":"Pentax","currency":"USD","price":"69.99"}
 {"title":"Pentax Optio S12 12MP Digital Camera with 3x Optical Zoom (Silver)","manufacturer":"Pentax","currency":"USD","price":"79.99"}
+{"title":"Pentax Optio S12 12MP Digital Camera with 3x Optical Zoom (Silver)","manufacturer":"Pentax","currency":"USD","price":"79.99"}
 {"title":"Kodak EasyShare C182 Digital Camera (Red)","manufacturer":"Kodak","currency":"USD","price":"49.99"}
 {"title":"Kodak EasyShare C182 Digital Camera (Red)","manufacturer":"Kodak","currency":"USD","price":"214.95"}
 {"title":"Panasonic DMC-FX75S 14.1MP Digital Camera with 5x Optical Image Stabilized Zoom with 3 inch LCD (Silver)","manufacturer":"Panasonic","currency":"USD","price":"140.99"}
